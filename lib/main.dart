@@ -28,7 +28,7 @@ class NewsApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.appTheme,
+      theme: ThemeData.dark(),
       home: this._screen,
     );
   }
